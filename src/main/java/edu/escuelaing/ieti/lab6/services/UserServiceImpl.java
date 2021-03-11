@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService {
 
-    private User[] data = {new User(1, "andres", "andres@gmail.com", "sotelo"),new User(2, "orlando", "orlando@gmail.com", "sotelo")};
+    private User[] data = {new User(1, "andres", "andres@gmail.com", "sotelo"),new User(2, "orlando", "orlando@gmail.com", "sotelo"),new User(3, "sotelo", "sotelo@gmail.com", "sotelo")};
     private List<User> users = relleno();
     
     private List<User> relleno() {
